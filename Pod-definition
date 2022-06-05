@@ -4,6 +4,7 @@ metadata:
    name: nginx
    labels:
       tier: frontend
+      app: minikube
 spec:
    containers:
       name: nginx
