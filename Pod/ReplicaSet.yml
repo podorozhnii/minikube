@@ -3,7 +3,7 @@ kind: ReplicaSet
 metadata:
  name: myapp-replicaset
  labels:
-   app:myapp
+   app: myapp
 spec:
   selector:
    matchlabels: 
