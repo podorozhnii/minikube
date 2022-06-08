@@ -6,14 +6,14 @@ metadata:
    app: myapp
 spec:
   selector:
-   matchlabels: 
-     env:production
+   matchLabels: 
+     app: myapp
   replicas: 3
-  templates:
+  template:
     metadata:
       name: nginx-2
       labels:
-        env:production
+        app: myapp
     spec:
       containers:
         - name: nginx
